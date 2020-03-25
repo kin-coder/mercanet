@@ -1,7 +1,7 @@
-<form method="post" action="https://payment-webinit-mercanet.test.sips-atos.com/paymentInit">
-  <input type="hidden" name="Data" value="#{@data}">
+<form method="post" action="https://payment-webinit.simu.mercanet.bnpparibas.net/paymentInit">
+  <input type="hidden" name="Data" value="<%=@data%>">
   <input type="hidden" name="InterfaceVersion" value="HP_2.20">
-  <input type="hidden" name="Seal" value="#{@seal}">
+  <input type="hidden" name="Seal" value="<%=@seal%>">
   <input type="submit" value="Payer"><br>
 </form>
 
