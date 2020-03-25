@@ -1,0 +1,2 @@
+module MercanetsHelper
+end
