@@ -700,3 +700,71 @@ Processing by MercanetsController#affichage_format as HTML
 Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3330)
 
 
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/itokiana/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/affichage_format" for 154.126.12.232 at 2020-03-25 13:43:28 +0300
+Cannot render console from 154.126.12.232! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MercanetsController#affichage_format as HTML
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 31.4ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 319ms (Views: 246.9ms | ActiveRecord: 0.0ms | Allocations: 7378)
+
+
+Started GET "/affichage_format" for 154.126.12.79 at 2020-03-25 13:44:04 +0300
+Cannot render console from 154.126.12.79! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MercanetsController#affichage_format as HTML
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3333)
+
+
+Started GET "/affichage_format" for ::1 at 2020-03-25 13:44:11 +0300
+Processing by MercanetsController#affichage_format as HTML
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3334)
+
+
+Started GET "/affichage_format?fbclid=IwAR3XRxzdOGaQeXpNydFhPsWisg07T_wCKi1iztMmCihpHKRgaITk_nLiAXA" for 41.74.209.185 at 2020-03-25 13:48:55 +0300
+Cannot render console from 41.74.209.185! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MercanetsController#affichage_format as HTML
+  Parameters: {"fbclid"=>"IwAR3XRxzdOGaQeXpNydFhPsWisg07T_wCKi1iztMmCihpHKRgaITk_nLiAXA"}
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3328)
+
+
+Started GET "/" for ::1 at 2020-04-20 14:36:33 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/itokiana/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/itokiana/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 36.5ms | Allocations: 308)
+Completed 200 OK in 157ms (Views: 85.8ms | ActiveRecord: 0.0ms | Allocations: 1721)
+
+
+Started GET "/affichage_format" for ::1 at 2020-04-20 14:39:28 +0300
+Processing by MercanetsController#affichage_format as HTML
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 0.6ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 134ms (Views: 128.9ms | ActiveRecord: 0.0ms | Allocations: 7372)
+
+
+Started GET "/" for ::1 at 2020-04-22 21:56:04 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/itokiana/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/itokiana/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 39.3ms | Allocations: 308)
+Completed 200 OK in 171ms (Views: 88.6ms | ActiveRecord: 0.0ms | Allocations: 1722)
+
+
+Started GET "/affichage_format" for ::1 at 2020-04-22 21:56:24 +0300
+Processing by MercanetsController#affichage_format as HTML
+  Rendering mercanets/affichage_format.html.erb within layouts/application
+  Rendered mercanets/affichage_format.html.erb within layouts/application (Duration: 98.3ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 413ms (Views: 411.2ms | ActiveRecord: 0.0ms | Allocations: 9211)
+
+
