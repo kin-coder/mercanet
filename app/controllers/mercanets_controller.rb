@@ -8,7 +8,7 @@ class MercanetsController < ApplicationController
     transactionReference = "simu" + rand(100000..999999).to_s
 
     #Construit l'URL de retour pour récupérer le résultat du paiement sur le site e-commerce du marchand
-    normalReturnUrl = "https://28196749.ngrok.io/retour_transaction"
+    normalReturnUrl = "http://localhost:3000/retour_transaction"
 
     # Contruit la requête des données à envoyer à Mercanet
     @data = "amount=100|currencyCode=978|merchantId=002001000000001|normalReturnUrl=" + normalReturnUrl + "|transactionReference=" + transactionReference + "|keyVersion=1"
